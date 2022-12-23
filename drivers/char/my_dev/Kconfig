@@ -1,0 +1,5 @@
+menu "my custom modules"
+    config CUSTOM_HELLOWORLD
+    tristate "hello world module support"
+    default m
+endmenu
